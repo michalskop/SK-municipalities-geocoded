@@ -1,0 +1,108 @@
+{
+"name": "sk-municipalities-geocoded",
+"description": "List of geocoded Slovak municipalities",
+"resources": [
+    {
+        "name": "Slovakia",
+        "path": "data/sk.csv",
+        "description": "Slovak municipalities",
+        "schema": {
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "integer",
+                    "description": "ID given by Štatistický úrad SR"
+                },
+                {
+                    "name": "name",
+                    "type": "string",
+                    "description": "Name of the municipality"
+                },
+                {
+                    "name": "lat",
+                    "type": "float",
+                    "description": "Latitude of the center of the municipality"
+                },
+                {
+                    "name": "long",
+                    "type": "float",
+                    "description": "Longitude of the center of the municipality"
+                },
+                {
+                    "name": "size",
+                    "type": "integer",
+                    "description": "Number of registered voters in 2014"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Bratislava",
+        "path": "data/sk-ba.csv",
+        "description": "Bratislava districts",
+        "schema": {
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "integer",
+                    "description": "ID given by Štatistický úrad SR"
+                },
+                {
+                    "name": "name",
+                    "type": "string",
+                    "description": "Name of the district"
+                },
+                {
+                    "name": "lat",
+                    "type": "float",
+                    "description": "Latitude of the center of the district"
+                },
+                {
+                    "name": "long",
+                    "type": "float",
+                    "description": "Longitude of the center of the district"
+                },
+                {
+                    "name": "size",
+                    "type": "integer",
+                    "description": "Number of registered voters in 2014 (est.)"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Košice",
+        "path": "data/sk-ke.csv",
+        "description": "Košice districts",
+        "schema": {
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "integer",
+                    "description": "ID given by Štatistický úrad SR"
+                },
+                {
+                    "name": "name",
+                    "type": "string",
+                    "description": "Name of the district"
+                },
+                {
+                    "name": "lat",
+                    "type": "float",
+                    "description": "Latitude of the center of the district"
+                },
+                {
+                    "name": "long",
+                    "type": "float",
+                    "description": "Longitude of the center of the district"
+                },
+                {
+                    "name": "size",
+                    "type": "integer",
+                    "description": "Number of registered voters in 2014 (est.)"
+                }
+            ]
+        }
+    }
+]
+}
